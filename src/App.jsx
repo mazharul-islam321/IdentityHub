@@ -1,7 +1,16 @@
 import "./App.css";
+import Banner from "./components/header/Banner";
+import Navbar from "./components/header/Navbar";
+import PrivateInfo from "./components/private-Info/PrivateInfo";
 
 function App() {
-	return <h1 className="text-3xl font-bold underline">Identity hub!</h1>;
+	return (
+		<div className="w-full h-full bg-[#050520]">
+			<Navbar />
+			<Banner />
+			<PrivateInfo />
+		</div>
+	);
 }
 
 export default App;
