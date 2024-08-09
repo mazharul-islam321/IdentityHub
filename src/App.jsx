@@ -1,4 +1,5 @@
 import "./App.css";
+import DedicatedSupport from "./components/DedicatedSupport";
 import Banner from "./components/header/Banner";
 import Navbar from "./components/header/Navbar";
 import PersonalData from "./components/PersonalData";
@@ -11,6 +12,7 @@ function App() {
 			<Banner />
 			<RemovePrivateInfo />
 			<PersonalData />
+			<DedicatedSupport />
 		</div>
 	);
 }
