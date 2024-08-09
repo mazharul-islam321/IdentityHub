@@ -2,7 +2,7 @@
 
 const SubHeaderText = ({ text }) => {
 	return (
-		<p className="text-[#AFB3CA] text-base font-normal w-3/5 my-8">
+		<p className={`text-[#AFB3CA] text-base font-normal  my-8 w-3/4`}>
 			{text}
 		</p>
 	);
