@@ -11,7 +11,9 @@ const Logo = () => {
 				src={logo}
 				alt="logo"
 			/>
-			<span className="hover:text-[#FFAC8E]">IdentityHub</span>
+			<span className="hover:text-[#FFAC8E] text-[#CAD1E9]">
+				IdentityHub
+			</span>
 		</a>
 	);
 };
