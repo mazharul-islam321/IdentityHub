@@ -14,6 +14,20 @@ const Pricing = () => {
 					things.
 				</p>
 			</div>
+
+			<div className="flex justify-center mb-16">
+				<div className="flex h-14 w-[358px] items-center justify-center bg-gradient-to-br from-[#4E4E69]/[0.3] to-[#4E4E69]/[1] rounded-xl text-[#CAD1E9] p-px">
+					<div className="relative inline-flex h-full w-full items-center  text-lg  bg-gradient-to-t from-[#21223C] to-[#0B0B26] rounded-xl">
+						<a className="relative inline-flex h-12 w-[181px] items-center justify-center text-lg  bg-gradient-to-t from-[#21223C] to-[#0B0B26] border border-solid rounded-xl border-[#2C2D47] ml-0.5">
+							Billed yearly -20%
+						</a>
+						<span className="relative inline-flex h-12 w-[176px] items-center justify-center">
+							Billed monthly
+						</span>
+					</div>
+				</div>
+			</div>
+
 			<div className="flex justify-center">
 				<div className="lg:flex lg:items-center lg:justify-center  gap-6 pb-10">
 					{data.map((item) => (
@@ -24,7 +38,7 @@ const Pricing = () => {
 		</section>
 	);
 };
-// flex items-center justify-center
+
 export default Pricing;
 
 const data = [

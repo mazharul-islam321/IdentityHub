@@ -3,10 +3,11 @@ import Title from "./Title";
 import info from "../../assets/inform.svg";
 import sec_valid from "../../assets/security-validation.svg";
 import user from "../../assets/user.svg";
+import analytics from "../../assets/analytics.svg";
 
 const WhyChooseUs = () => {
 	return (
-		<section className="flex items-center justify-center">
+		<section className="flex items-center justify-center px-24">
 			<div className="py-5">
 				<div className="lg:text-center">
 					<h1 className="text-[#CAD1E9] font-medium text-6xl my-3">
@@ -61,6 +62,28 @@ const WhyChooseUs = () => {
 						</div>
 					</div>
 				</dic>
+
+				<div className="w-full h-[275px] flex items-center justify-between border border-solid rounded-[20px] border-[#2C2D47]/[1] bg-gradient-to-br from-[#1B1C36]/[.16] to-[#70717A]/[.16] p-10">
+					<div className="w-1/3">
+						<Title text="Detailed Reporting" />
+						<Subtitle text="You'll receive regular reports on your privacy status and any outstanding threats. If new records become associated with you, we will send you an alert." />
+					</div>
+
+					<div className=" flex justify-start w-[484px] h-[195px] border border-solid rounded-[20px] border-[#2C2D47]/[1] bg-gradient-to-br from-[#1B1C36]/[.16] to-[#70717A]/[.16] p-7">
+						<div className="flex items-center">
+							<div className="flex justify-center items-center bg-[#2D2E48] w-[152px] h-[152px] border border-solid rounded-2xl border-[#FFFFFF]/[.07]">
+								<img src={analytics} alt="analytics" />
+							</div>
+
+							<div className="ml-6">
+								<div className="w-36  xl:w-[236px] h-4 bg-[#CAD1E9] rounded-[32px]" />
+								<div className="w-36  xl:w-[126px] h-4 bg-[#CAD1E9]/[.5] rounded-[32px] mt-[7px]" />
+								<div className="w-36  xl:w-[126px] h-4 bg-[#CAD1E9]/[.5] rounded-[32px] mt-[7px]" />
+								<div className="w-36 xl:w-[71px] h-4 bg-[#CAD1E9]/[.5]  rounded-[32px] mt-[7px]" />
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 	);
