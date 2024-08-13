@@ -4,11 +4,11 @@ const Review = () => {
 	return (
 		<section className="py-10">
 			<div className="text-center">
-				<h1 className="text-[#CAD1E9] font-medium text-6xl my-3">
+				<h1 className="text-[#CAD1E9] font-medium text-5xl md:text-6xl my-3">
 					The word on IdentityHub
 				</h1>
 
-				<p className="text-[#AFB3CA] text-base font-normal  mt-5 pb-8 w-2/4 mx-auto">
+				<p className="text-[#AFB3CA] text-base font-normal  mt-5 pb-8 w-2/3 md:w-2/4 mx-auto">
 					Forget about spam, advertising mailings, hacking and
 					attacking robots. Keep your real mailbox clean and secure.
 					Temp Mail provides temporary, secure, anonymous, free,
@@ -16,7 +16,7 @@ const Review = () => {
 				</p>
 			</div>
 
-			<div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4  gap-3  mx-28">
+			<div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4  gap-3 mx-10 md:mx-24 xl:mx-28">
 				{data.map((item) => (
 					<div
 						key={item.id}

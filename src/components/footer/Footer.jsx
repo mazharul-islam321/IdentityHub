@@ -7,7 +7,7 @@ import linkedin from "../../assets/linkedin.svg";
 const Footer = () => {
 	return (
 		<footer>
-			<div className="text-center md:flex lg:flex xl:flex justify-evenly w-full pb-56 pt-20 border-b border-white/[0.2]">
+			<div className="text-center md:flex lg:flex xl:flex justify-evenly w-full pb-20 md:pb-56 pt-20 border-b border-white/[0.2]">
 				<div className="flex justify-center mb-10">
 					<a className="flex gap-2" href="#">
 						<img src={logo} alt="logo" className="w-6 h-7" />
@@ -17,8 +17,8 @@ const Footer = () => {
 					</a>
 				</div>
 
-				<div>
-					<p className="text-[#CAD1E9] text-lg font-medium mb-6">
+				<div className="md:text-left mb-6">
+					<p className="text-[#CAD1E9] text-lg font-medium mb-4">
 						{"It's free so why not"}
 					</p>
 					<p className="text-[#CAD1E9] text-base font-light">
@@ -30,8 +30,8 @@ const Footer = () => {
 					<p className="text-[#CAD1E9] text-base font-light">FAQ</p>
 				</div>
 
-				<div>
-					<p className="text-[#CAD1E9] text-lg font-medium mb-6">
+				<div className="md:text-left mb-6">
+					<p className="text-[#CAD1E9] text-lg font-medium mb-4">
 						Company
 					</p>
 					<p className="text-[#CAD1E9] text-base font-light">
@@ -43,8 +43,8 @@ const Footer = () => {
 					<p className="text-[#CAD1E9] text-base font-light">Blog</p>
 				</div>
 
-				<div>
-					<p className="text-[#CAD1E9] text-lg font-medium mb-6">
+				<div className="md:text-left mb-6">
+					<p className="text-[#CAD1E9] text-lg font-medium mb-4">
 						Legal
 					</p>
 					<p className="text-[#CAD1E9] text-base font-light">
@@ -58,7 +58,8 @@ const Footer = () => {
 					</p>
 				</div>
 			</div>
-			<div className="flex items-center justify-center gap-[88px] w-full py-8 text-[#CAD1E9]">
+
+			<div className="flex items-center justify-center gap-4 md:gap-[88px] w-full py-8 text-[#CAD1E9]">
 				<div className="flex items-center cursor-pointer">
 					<img src={instagram} alt="instagram" />
 					<span className="font-medium text-lg ml-3">Company</span>

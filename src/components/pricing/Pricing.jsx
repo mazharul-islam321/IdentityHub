@@ -8,7 +8,7 @@ const Pricing = () => {
 					Pricing
 				</h1>
 
-				<p className="text-[#AFB3CA] text-base font-normal  mt-5 pb-8 w-1/3 mx-auto">
+				<p className="text-[#AFB3CA] text-base font-normal  mt-5 pb-8 w-2/3 md:w-1/3 mx-auto">
 					You can stay on the $56 plan until you have enough active
 					user to justify managing their data or you start settings
 					things.
@@ -28,8 +28,8 @@ const Pricing = () => {
 				</div>
 			</div>
 
-			<div className="flex justify-center">
-				<div className="lg:flex lg:items-center lg:justify-center  gap-6 pb-10">
+			<div className="flex justify-center w-full md:h-[700px] items-cente">
+				<div className="md:flex md:items-center md:justify-center gap-3  xl:gap-6">
 					{data.map((item) => (
 						<PriceCard key={item.id} item={item} />
 					))}

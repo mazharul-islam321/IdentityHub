@@ -1,18 +1,17 @@
 import "./App.css";
-import WhyChooseUs from "./components/choose-us/WhyChooseUs";
-import DedicatedSupport from "./components/DedicatedSupport";
-import Footer from "./components/footer/Footer";
-import Banner from "./components/header/Banner";
 import Navbar from "./components/header/Navbar";
-import PersonalData from "./components/PersonalData";
-import Pricing from "./components/pricing/Pricing";
-
+import Banner from "./components/header/Banner";
 import RemovePrivateInfo from "./components/RemovePrivateInfo";
+import PersonalData from "./components/PersonalData";
+import DedicatedSupport from "./components/DedicatedSupport";
+import WhyChooseUs from "./components/choose-us/WhyChooseUs";
 import Review from "./components/Review";
+import Pricing from "./components/pricing/Pricing";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	return (
-		<div className="w-full h-full bg-[#050520]">
+		<div className="bg-[#050520]">
 			<Navbar />
 			<Banner />
 			<RemovePrivateInfo />

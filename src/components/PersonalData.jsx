@@ -1,6 +1,4 @@
-import HeaderText from "./common/HeaderText";
 import InfoCard from "./common/InfoCard";
-import SubHeaderText from "./common/SubHeaderText";
 import user from "../assets/user.svg";
 import call from "../assets/call.svg";
 import mail from "../assets/mail.svg";
@@ -55,23 +53,30 @@ const PersonalData = () => {
 	];
 
 	return (
-		<section className="lg:flex items-center pl-32 py-9">
-			<div className="flex flex-wrap  w-1/2">
+		<section className=" md:flex md:items-center md:gap-4 py-10">
+			<div className="grid md:grid-cols-2 flex-1 justify-center md:gap-4 md:ml-5 xl:ml-36 mb-5 md:mb-0">
 				{data.map((item) => (
-					<div key={item.id} className="m-2">
-						<InfoCard
-							img={item.img}
-							alt_text={item.alt_text}
-							first_text={item.first_text}
-							second_text={item.second_text}
-						/>
-					</div>
+					<InfoCard
+						key={item.id}
+						img={item.img}
+						alt_text={item.alt_text}
+						first_text={item.first_text}
+						second_text={item.second_text}
+					/>
 				))}
 			</div>
-			<div className="pt-8 lg:pt-4 w-1/2">
-				<HeaderText text="Cloaking identities stand in for your personal data" />
 
-				<SubHeaderText text="Forget about spam, advertising mailings, hacking and attacking robots. Keep your real mailbox clean and secure. Temp Mail provides temporary, secure, anonymous, free, disposable email address." />
+			<div className="flex-1 md:ml-5 xl:ml-0">
+				<p className="text-[#AFB3CA] text-4xl  font-medium text-center md:text-left  mx-6 md:mx-0 md:w-2/3 xl:w-1/2">
+					Cloaking identities stand in for your personal data
+				</p>
+
+				<p className="text-[#AFB3CA] text-base  font-normal  text-center md:text-left  mt-7 mx-6  md:mx-0  xl:w-2/3">
+					Forget about spam, advertising mailings, hacking and
+					attacking robots. Keep your real mailbox clean and secure.
+					Temp Mail provides temporary, secure, anonymous, free,
+					disposable email address.
+				</p>
 			</div>
 		</section>
 	);

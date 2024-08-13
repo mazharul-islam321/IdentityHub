@@ -13,12 +13,12 @@ const PriceCard = ({ item }) => {
 		<div
 			onMouseOver={() => setIsHover(true)}
 			onMouseOut={() => setIsHover(false)}
-			className={`flex w-[352px]  items-center justify-center bg-gradient-to-r 
+			className={`flex w-[352px]  md:w-[320px] xl:w-[352px]  items-center justify-center bg-gradient-to-r 
 				${
 					isHovar
 						? "h-[690px] from-[#B67EFD] via-[#FF8EC1] to-[#FFAB8F]"
 						: "h-[634px] from-[#2C2D47]/[1]  to-[#444AE2]/[.5]"
-				} rounded-[32px]  p-px`}
+				} rounded-[32px]  p-px mt-5 xl:mt-0`}
 		>
 			<div className="h-full w-full flex flex-col  items-center justify-center text-lg  bg-gradient-to-br from-[#0B0B26] to-[#21223C] rounded-[32px] ">
 				<h2 className="text-[#AFB3CA] text-xl font-normal">
