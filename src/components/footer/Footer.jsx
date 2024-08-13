@@ -59,20 +59,20 @@ const Footer = () => {
 				</div>
 			</div>
 
-			<div className="flex items-center justify-center gap-4 md:gap-[88px] w-full py-8 text-[#CAD1E9]">
-				<div className="flex items-center cursor-pointer">
+			<div className="md:flex md:items-center md:justify-center gap-4 md:gap-[88px] w-full py-8 text-[#CAD1E9]">
+				<div className="flex items-center justify-center cursor-pointer my-5 md:my-0">
 					<img src={instagram} alt="instagram" />
 					<span className="font-medium text-lg ml-3">Company</span>
 				</div>
-				<div className="flex items-center cursor-pointer">
+				<div className="flex items-center justify-center cursor-pointer my-5 md:my-0">
 					<img src={youtube} alt="youtube" />
 					<span className="font-medium text-lg ml-3">Youtube</span>
 				</div>
-				<div className="flex items-center cursor-pointer">
+				<div className="flex items-center justify-center cursor-pointer my-5 md:my-0">
 					<img src={twitter} alt="twitter" />
 					<span className="font-medium text-lg ml-3">X</span>
 				</div>
-				<div className="flex items-center cursor-pointer">
+				<div className="flex items-center justify-center cursor-pointer my-5 md:my-0">
 					<img src={linkedin} alt="linkedin" />
 					<span className="font-medium text-lg ml-3">LinkedIn</span>
 				</div>
