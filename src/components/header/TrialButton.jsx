@@ -2,7 +2,7 @@ import ArrowRight from "../../assets/icons/ArrowRight";
 
 const TrialButton = () => {
 	return (
-		<div className="ml-auto flex items-center justify-end px-6 lg:ml-0 lg:flex-1 xl:p-0 ">
+		<div className="ml-auto flex items-center justify-end px-6 md:ml-0 md:flex-1 xl:p-0 ">
 			<div className="relative inline-flex h-12 w-44 items-center justify-center bg-gradient-to-r from-[#4E4E69]/[0.3] to-[#4E4E69]/[1] rounded-xl hover:text-[#FFAC8E] p-px">
 				<a
 					href="#"
